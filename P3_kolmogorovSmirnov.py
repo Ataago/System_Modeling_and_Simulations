@@ -12,6 +12,7 @@
 
 # Enter the Random Numbers and store it in sorted format
 Ri = sorted([float(i) for i in input("Enter Random numbers to perform Kolmogorov Smirnov Test: ").split()])
+#Ri = [0.79, 0.08, 0.27, 0.96]
 
 # Total Number of Random Digits
 N = len(Ri)
